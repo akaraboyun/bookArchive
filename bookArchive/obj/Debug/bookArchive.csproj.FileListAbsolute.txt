@@ -1,0 +1,5 @@
+c:\users\ozgurozan\documents\visual studio 2012\Projects\bookArchive\bookArchive\obj\Debug\bookArchive.csprojResolveAssemblyReference.cache
+c:\users\ozgurozan\documents\visual studio 2012\Projects\bookArchive\bookArchive\bin\bookArchive.dll
+c:\users\ozgurozan\documents\visual studio 2012\Projects\bookArchive\bookArchive\bin\bookArchive.pdb
+c:\users\ozgurozan\documents\visual studio 2012\Projects\bookArchive\bookArchive\obj\Debug\bookArchive.dll
+c:\users\ozgurozan\documents\visual studio 2012\Projects\bookArchive\bookArchive\obj\Debug\bookArchive.pdb
