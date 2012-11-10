@@ -45,5 +45,29 @@ namespace bookArchive.Classes
             }
             return publishers;
         }
+
+        internal void addPublisher()
+        {
+            MySqlConnection cnn = new MySqlConnection(SystemClasses.connString);
+            String sql = "insert into publishers (publisher_name) values (@publisherName)";
+            MySqlCommand cmd = new MySqlCommand(sql, cnn);
+            cmd.Parameters.AddWithValue("@publisherName", this.publisherName);
+            cnn.Open();
+            cmd.ExecuteNonQuery();
+            cnn.Close();
+            
+        }
+
+        internal void updatePublisher(int publisherId)
+        {
+            MySqlConnection cnn = new MySqlConnection(SystemClasses.connString);
+            String sql = "update publishers set publisher_name=@publisherName where publisher_id = @publisherId";
+            MySqlCommand cmd = new MySqlCommand(sql, cnn);
+            cmd.Parameters.AddWithValue("@publisherName", this.publisherName);
+            cmd.Parameters.AddWithValue("@publisherId", publisherId);
+            cnn.Open();
+            cmd.ExecuteNonQuery();
+            cnn.Close();
+        }
     }
 }

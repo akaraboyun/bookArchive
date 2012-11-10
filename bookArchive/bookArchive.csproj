@@ -76,6 +76,9 @@
     <Content Include="App\Book\listBooks.aspx" />
     <Content Include="App\Book\listNonDigitized.aspx" />
     <Content Include="App\Book\viewBook.aspx" />
+    <Content Include="App\publisher\addPublisher.aspx" />
+    <Content Include="App\publisher\listPublishers.aspx" />
+    <Content Include="App\publisher\viewPublisher.aspx" />
     <Content Include="default.aspx" />
     <Content Include="javascripts\app.js" />
     <Content Include="javascripts\foundation.min.js" />
@@ -157,6 +160,27 @@
     </Compile>
     <Compile Include="App\MasterPages\Foundation.Master.designer.cs">
       <DependentUpon>Foundation.Master</DependentUpon>
+    </Compile>
+    <Compile Include="App\publisher\addPublisher.aspx.cs">
+      <DependentUpon>addPublisher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\publisher\addPublisher.aspx.designer.cs">
+      <DependentUpon>addPublisher.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\publisher\listPublishers.aspx.cs">
+      <DependentUpon>listPublishers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\publisher\listPublishers.aspx.designer.cs">
+      <DependentUpon>listPublishers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\publisher\viewPublisher.aspx.cs">
+      <DependentUpon>viewPublisher.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\publisher\viewPublisher.aspx.designer.cs">
+      <DependentUpon>viewPublisher.aspx</DependentUpon>
     </Compile>
     <Compile Include="Classes\Author.cs" />
     <Compile Include="Classes\Book.cs" />
