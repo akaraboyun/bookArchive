@@ -1,11 +1,9 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/App/MasterPages/Foundation.Master" AutoEventWireup="true" CodeBehind="listBooks.aspx.cs" Inherits="bookArchive.App.Book.listBooks" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/App/MasterPages/Foundation.Master" AutoEventWireup="true" CodeBehind="listNonDigitized.aspx.cs" Inherits="bookArchive.App.Book.listNonDigitized" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="row">
-        
         <div class="two columns"></div>
         <div class="eight columns">
-            <h5>Tüm Kitaplar</h5>
+            <h5>Dijitize Edilmemiş Kitaplar</h5>
             <table>
                 <tr>
                     <td><b>Id:</b></td>
@@ -23,7 +21,7 @@
                             <td><%# DataBinder.Eval(Container.DataItem, "authorName") %></td>
                             <td><%# DataBinder.Eval(Container.DataItem, "bookIsbn") %></td>
                             <td><%# DataBinder.Eval(Container.DataItem, "publisherName") %></td>
-                            <td><a href="viewBook.aspx?bookId=<%# DataBinder.Eval(Container.DataItem, "bookId") %>" class="tiny success button" >Göster</a></td>
+                            <td><a href="viewBook.aspx?bookId=<%# DataBinder.Eval(Container.DataItem, "bookId") %>">Göster</a></td>
                         </tr>
                     </ItemTemplate>
 
@@ -32,5 +30,4 @@
         </div>
         <div class="two columns"></div>
     </div>
-
 </asp:Content>

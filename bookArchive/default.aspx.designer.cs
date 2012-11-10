@@ -11,7 +11,7 @@ namespace bookArchive
 {
 
 
-    public partial class index
+    public partial class _default
     {
     }
 }

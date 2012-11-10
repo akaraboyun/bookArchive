@@ -71,7 +71,9 @@
   <ItemGroup>
     <Content Include="App\Book\addBook.aspx" />
     <Content Include="App\Book\listBooks.aspx" />
-    <Content Include="index.aspx" />
+    <Content Include="App\Book\listNonDigitized.aspx" />
+    <Content Include="App\Book\viewBook.aspx" />
+    <Content Include="default.aspx" />
     <Content Include="javascripts\app.js" />
     <Content Include="javascripts\foundation.min.js" />
     <Content Include="javascripts\jquery.foundation.accordion.js" />
@@ -111,6 +113,20 @@
     <Compile Include="App\Book\listBooks.aspx.designer.cs">
       <DependentUpon>listBooks.aspx</DependentUpon>
     </Compile>
+    <Compile Include="App\Book\listNonDigitized.aspx.cs">
+      <DependentUpon>listNonDigitized.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Book\listNonDigitized.aspx.designer.cs">
+      <DependentUpon>listNonDigitized.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\Book\viewBook.aspx.cs">
+      <DependentUpon>viewBook.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\Book\viewBook.aspx.designer.cs">
+      <DependentUpon>viewBook.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App\MasterPages\Foundation.Master.cs">
       <DependentUpon>Foundation.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -122,12 +138,12 @@
     <Compile Include="Classes\Book.cs" />
     <Compile Include="Classes\Publisher.cs" />
     <Compile Include="Classes\SystemClasses.cs" />
-    <Compile Include="index.aspx.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="default.aspx.cs">
+      <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="index.aspx.designer.cs">
-      <DependentUpon>index.aspx</DependentUpon>
+    <Compile Include="default.aspx.designer.cs">
+      <DependentUpon>default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
