@@ -68,16 +68,16 @@
           <li class="has-dropdown">
             <a  href="#">Yazarlar</a>
             <ul class="dropdown">    
-              <li><a href="/App/author/addAuthor.aspx">Yazar Ekle</a></li>
-              <li><a href="/App/author/listAuthors.aspx">Yazarları Listele</a></li>
+              <li><a href="/App/Book/addBook.aspx">Kitap Ekle</a></li>
+              <li><a href="/App/Book/listBooks.aspx">Kitapları Listele</a></li>
             </ul>             
           </li>
              <li class="divider"></li>
           <li class="has-dropdown">
             <a  href="#">Yayıncılar</a>
             <ul class="dropdown">    
-              <li><a href="/App/publisher/addPublisher.aspx">Yayıncı Ekle</a></li>
-              <li><a href="/App/publisher/listPublishers.aspx">Yayıncıları Listele</a></li>
+              <li><a href="/App/Book/addBook.aspx">Kitap Ekle</a></li>
+              <li><a href="/App/Book/listBooks.aspx">Kitapları Listele</a></li>
             </ul>             
           </li>
           <li class="divider hide-for-small"></li>

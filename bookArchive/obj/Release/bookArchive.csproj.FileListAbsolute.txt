@@ -1,0 +1,4 @@
+C:\Users\OzgurOzan\documents\visual studio 2012\Projects\bookArchive\bookArchive\bin\bookArchive.dll
+C:\Users\OzgurOzan\documents\visual studio 2012\Projects\bookArchive\bookArchive\bin\bookArchive.pdb
+C:\Users\OzgurOzan\documents\visual studio 2012\Projects\bookArchive\bookArchive\obj\Release\bookArchive.dll
+C:\Users\OzgurOzan\documents\visual studio 2012\Projects\bookArchive\bookArchive\obj\Release\bookArchive.pdb

@@ -69,6 +69,9 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App\author\addAuthor.aspx" />
+    <Content Include="App\author\listAuthors.aspx" />
+    <Content Include="App\author\viewAuthor.aspx" />
     <Content Include="App\Book\addBook.aspx" />
     <Content Include="App\Book\listBooks.aspx" />
     <Content Include="App\Book\listNonDigitized.aspx" />
@@ -99,6 +102,27 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App\author\addAuthor.aspx.cs">
+      <DependentUpon>addAuthor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\author\addAuthor.aspx.designer.cs">
+      <DependentUpon>addAuthor.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\author\listAuthors.aspx.cs">
+      <DependentUpon>listAuthors.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\author\listAuthors.aspx.designer.cs">
+      <DependentUpon>listAuthors.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\author\viewAuthor.aspx.cs">
+      <DependentUpon>viewAuthor.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App\author\viewAuthor.aspx.designer.cs">
+      <DependentUpon>viewAuthor.aspx</DependentUpon>
+    </Compile>
     <Compile Include="App\Book\addBook.aspx.cs">
       <DependentUpon>addBook.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -149,6 +173,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App\MasterPages\Foundation.Master" />
+    <None Include="Properties\PublishProfiles\Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

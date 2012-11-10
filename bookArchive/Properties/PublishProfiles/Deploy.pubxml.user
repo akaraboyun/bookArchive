@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="App/Book/addBook.aspx">
+      <publishTime>11/10/2012 16:20:59</publishTime>
+    </File>
+    <File Include="App/Book/listBooks.aspx">
+      <publishTime>11/10/2012 16:44:31</publishTime>
+    </File>
+    <File Include="App/Book/listNonDigitized.aspx">
+      <publishTime>11/10/2012 16:42:06</publishTime>
+    </File>
+    <File Include="App/Book/viewBook.aspx">
+      <publishTime>11/10/2012 16:55:21</publishTime>
+    </File>
+    <File Include="App/MasterPages/Foundation.Master">
+      <publishTime>11/10/2012 16:37:38</publishTime>
+    </File>
+    <File Include="bin/bookArchive.dll">
+      <publishTime>11/10/2012 17:18:38</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>11/10/2012 16:37:07</publishTime>
+    </File>
+    <File Include="javascripts/app.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/foundation.min.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.accordion.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.alerts.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.buttons.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.clearing.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.forms.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.joyride.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.magellan.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.mediaQueryToggle.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.navigation.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.orbit.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.reveal.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.tabs.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.tooltips.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/jquery.foundation.topbar.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/jquery.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/jquery.placeholder.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="javascripts/modernizr.foundation.js">
+      <publishTime>11/10/2012 16:48:29</publishTime>
+    </File>
+    <File Include="stylesheets/app.css">
+      <publishTime>11/10/2012 16:49:24</publishTime>
+    </File>
+    <File Include="stylesheets/foundation.css">
+      <publishTime>11/10/2012 16:49:24</publishTime>
+    </File>
+    <File Include="stylesheets/foundation.min.css">
+      <publishTime>11/10/2012 16:50:18</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/10/2012 17:18:38</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

@@ -21,7 +21,7 @@
                             <td><%# DataBinder.Eval(Container.DataItem, "authorName") %></td>
                             <td><%# DataBinder.Eval(Container.DataItem, "bookIsbn") %></td>
                             <td><%# DataBinder.Eval(Container.DataItem, "publisherName") %></td>
-                            <td><a href="viewBook.aspx?bookId=<%# DataBinder.Eval(Container.DataItem, "bookId") %>" class="tiny success button">Göster</a></td>
+                            <td><a href="viewBook.aspx?bookId=<%# DataBinder.Eval(Container.DataItem, "bookId") %>">Göster</a></td>
                         </tr>
                     </ItemTemplate>
 
