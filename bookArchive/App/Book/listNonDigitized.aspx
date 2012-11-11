@@ -16,7 +16,7 @@
                 <asp:Repeater ID="rptBooks" runat="server">
                     <ItemTemplate>
                         <tr>
-                            <td><%# DataBinder.Eval(Container.DataItem, "bookId") %></td>
+                            <td><%# DataBinder.Eval(Container.DataItem, "orderNumber") %></td>
                             <td><%# DataBinder.Eval(Container.DataItem, "bookName") %></td>
                             <td><%# DataBinder.Eval(Container.DataItem, "authorName") %></td>
                             <td><%# DataBinder.Eval(Container.DataItem, "bookIsbn") %></td>

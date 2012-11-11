@@ -18,6 +18,7 @@ namespace bookArchive.Classes
         public string bookIndex { get; set; }
         public string bookNotes { get; set; }
         public int isDigitized { get; set; }
+        public int orderNumber { get; set; }
 
 
         public void addBook()
@@ -65,11 +66,12 @@ namespace bookArchive.Classes
         public static List<Book> listBooks() {
             List<Book> books = new List<Book>();
 
-            String sql = "select * from books";
+            String sql = "select * from books order by author_id";
             MySqlConnection cnn = new MySqlConnection(SystemClasses.connString);
             MySqlCommand cmd = new MySqlCommand(sql, cnn);
             cnn.Open();
             MySqlDataReader reader = cmd.ExecuteReader();
+            int i = 1;
             while (reader.Read()) {
                 Book b = new Book();
                 b.bookId = int.Parse(reader["book_id"].ToString());
@@ -82,6 +84,7 @@ namespace bookArchive.Classes
                 b.bookIndex = reader["book_index"].ToString();
                 b.bookNotes = reader["book_notes"].ToString();
                 b.isDigitized = int.Parse(reader["is_digitized"].ToString());
+                b.orderNumber = i++;
                 books.Add(b);
             }
             cnn.Close();
@@ -98,9 +101,11 @@ namespace bookArchive.Classes
             MySqlCommand cmd = new MySqlCommand(sql, cnn);
             cnn.Open();
             MySqlDataReader reader = cmd.ExecuteReader();
+            int i = 1;
             while (reader.Read())
             {
                 Book b = new Book();
+                b.orderNumber = i++;
                 b.bookId = int.Parse(reader["book_id"].ToString());
                 b.bookName = reader["book_name"].ToString();
                 b.authorId = int.Parse(reader["author_id"].ToString());

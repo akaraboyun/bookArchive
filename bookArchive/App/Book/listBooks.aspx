@@ -8,7 +8,7 @@
             <h5>Tüm Kitaplar</h5>
             <table>
                 <tr>
-                    <td><b>Id:</b></td>
+                    <td><b>#:</b></td>
                     <td><b>Kitap Adı:</b></td>
                     <td><b>Yazar Adı:</b></td>
                     <td><b>ISBN:</b></td>
@@ -18,7 +18,7 @@
                 <asp:Repeater ID="rptBooks" runat="server">
                     <ItemTemplate>
                         <tr>
-                            <td><%# DataBinder.Eval(Container.DataItem, "bookId") %></td>
+                            <td><%# DataBinder.Eval(Container.DataItem, "orderNumber") %></td>
                             <td><%# DataBinder.Eval(Container.DataItem, "bookName") %></td>
                             <td><%# DataBinder.Eval(Container.DataItem, "authorName") %></td>
                             <td><%# DataBinder.Eval(Container.DataItem, "bookIsbn") %></td>
